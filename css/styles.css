@@ -1,1 +1,8 @@
-/*# sourceMappingURL=styles.css.map */
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
