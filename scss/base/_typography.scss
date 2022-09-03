@@ -1,0 +1,13 @@
+@use '../utilities/' as var;
+h3 {
+color: var.$newt-dark-grayish-blue;
+}
+.product-name {
+color: var.$newt-very-dark-blue;
+}
+.prod-info {
+color: var.$newt-dark-grayish-blue;
+}
+.prod-price {
+color: var.$prim-dark-cyan;
+}

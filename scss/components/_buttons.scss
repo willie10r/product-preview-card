@@ -1,0 +1,4 @@
+@use '../utilities/' as var;
+.atc {
+    background-color: var.$prim-dark-cyan;
+}
