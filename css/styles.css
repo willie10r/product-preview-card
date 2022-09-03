@@ -109,4 +109,14 @@ main {
 
 .prod-picture-lg {
   display: none;
+}
+
+@media (min-width: 1440px) {
+  .prod-picture-sm {
+    display: none;
+  }
+  .prod-picture-lg {
+    display: block;
+    width: 50%;
+  }
 }/*# sourceMappingURL=styles.css.map */
