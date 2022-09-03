@@ -1,4 +1,19 @@
 @use '../utilities/' as var;
 .atc {
+    display: flex;
+    flex-direction: row;
     background-color: var.$prim-dark-cyan;
+    border-radius: .45rem;
+    color: var.$newt-white;
+    width: 100%;
+    height: 40px;
+}
+.atc:hover {
+    background-color: var.$darker;
+}
+.cart-text {
+    margin: 8px 0 auto 10px;
+}
+.svg-cart {
+    margin: 8px 5px auto 85px;
 }

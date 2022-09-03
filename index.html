@@ -10,6 +10,12 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
@@ -26,15 +32,28 @@
       />
     </header>
     <main>
-      <h3>Preview</h3>
-      <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
-      <p class="prod-info">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
-      <h2 class="prod-price">$149.99 $169.99</h2>
-      <button class="atc">to Cart</button>
+      <div class="text-container">
+        <h3>Preview</h3>
+        <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
+        <p class="prod-info">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="prices">
+          <h1 class="prod-price-after">$149.99</h1>
+          <h5 class="prod-price-before"><strike>$169.99</strike></h5>
+        </div>
+        <button class="atc">
+          <img
+            class="svg-cart"
+            src="./images/icon-cart.svg"
+            alt="shopping cart photo"
+          />
+          <p class="cart-text">Add to Cart</p>
+        </button>
+      </div>
     </main>
+
     <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
