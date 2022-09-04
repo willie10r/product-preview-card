@@ -19,41 +19,42 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <header>
-      <img
-        class="prod-picture-sm"
-        src="./images/image-product-mobile.jpg"
-        alt="perfume bottle next to leave's"
-      />
-      <img
-        class="prod-picture-lg"
-        src="./images/image-product-desktop.jpg"
-        alt="perfume bottle next to leave's"
-      />
-    </header>
-    <main>
-      <div class="text-container">
-        <h3>Preview</h3>
-        <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
-        <p class="prod-info">
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-        <div class="prices">
-          <h1 class="prod-price-after">$149.99</h1>
-          <h5 class="prod-price-before"><strike>$169.99</strike></h5>
+    <div class="grid-container">
+      <header>
+        <img
+          class="prod-picture-sm"
+          src="./images/image-product-mobile.jpg"
+          alt="perfume bottle next to leave's"
+        />
+        <img
+          class="prod-picture-lg"
+          src="./images/image-product-desktop.jpg"
+          alt="perfume bottle next to leave's"
+        />
+      </header>
+      <main>
+        <div class="text-container">
+          <h3>Preview</h3>
+          <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
+          <p class="prod-info">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="prices">
+            <h1 class="prod-price-after">$149.99</h1>
+            <h5 class="prod-price-before"><strike>$169.99</strike></h5>
+          </div>
+          <button class="atc">
+            <img
+              class="svg-cart"
+              src="./images/icon-cart.svg"
+              alt="shopping cart photo"
+            />
+            <p class="cart-text">Add to Cart</p>
+          </button>
         </div>
-        <button class="atc">
-          <img
-            class="svg-cart"
-            src="./images/icon-cart.svg"
-            alt="shopping cart photo"
-          />
-          <p class="cart-text">Add to Cart</p>
-        </button>
-      </div>
-    </main>
-
+      </main>
+    </div>
     <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

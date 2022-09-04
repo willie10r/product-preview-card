@@ -12,6 +12,7 @@ h3 {
 .prod-info {
   color: hsl(228deg, 12%, 48%);
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 
 .prod-price-after {
@@ -112,11 +113,30 @@ main {
 }
 
 @media (min-width: 1440px) {
+  main {
+    border-radius: 0 1rem 1rem 0;
+  }
+  .text-container {
+    margin: 30px 40px 0 40px;
+  }
   .prod-picture-sm {
     display: none;
   }
   .prod-picture-lg {
     display: block;
-    width: 50%;
+    width: 310px;
+    border-radius: 1rem 0 0 1rem;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto auto auto;
+    width: 600px;
+  }
+  .svg-cart {
+    margin: 8px 5px auto 45px;
+  }
+  .prod-price-before {
+    margin-left: 10px;
   }
 }/*# sourceMappingURL=styles.css.map */
